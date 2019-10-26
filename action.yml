@@ -1,4 +1,4 @@
-name: "Azure KeyVault"
+name: "Azure KeyVault Action"
 author: "Vlad Gincher"
 description: "Add Azure KeyVault's secrets to the environment variables"
 inputs:
@@ -13,5 +13,5 @@ runs:
   using: "node12"
   main: "lib/index.js"
 branding:
-  icon: "key"
+  icon: "unlock"
   color: "green"
