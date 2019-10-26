@@ -28,7 +28,7 @@ jobs:
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
       - name: Download secrets
-        uses: gincher/azure-keyvault
+        uses: gincher/azure-keyvault@v1
         with:
           keyVaultName: 'secrets'
           secretsFilter: '*'
