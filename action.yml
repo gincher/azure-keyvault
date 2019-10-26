@@ -1,6 +1,6 @@
-name: "Azure KeyVault Action"
+name: "Azure Key Vault Action"
 author: "Vlad Gincher"
-description: "Add Azure KeyVault's secrets to the environment variables"
+description: "Add Azure Key Vault's secrets to the environment variables"
 inputs:
   keyVaultName:
     description: "The name of the Azure Key Vault from which the secrets will be downloaded."
