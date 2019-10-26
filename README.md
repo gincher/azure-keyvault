@@ -2,7 +2,7 @@
 
 ## Automate your GitHub workflows using Azure Actions
 
-This action is designed to use the [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest) to add Azure KeyVault's secrets to the environment variables. Make sure you have logged in to the azure cli (using the [`azure/login` action](https://github.com/Azure/login)) before using this action.
+This action is designed to use the [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest) to add Azure KeyVault's secrets to the environment variables. Make sure you have logged in to the azure cli (using the [`azure/login`](https://github.com/Azure/login) action) before using this action. Works similar to the [`AzureKeyVault`](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/deploy/azure-key-vault) task in Azure DevOps.
 
 ## Usage
 
