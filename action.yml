@@ -1,0 +1,17 @@
+name: "Azure KeyVault"
+author: "Vlad Gincher"
+description: "Add Azure KeyVault's secrets to the environment variables"
+inputs:
+  keyVaultName:
+    description: "The name of the Azure Key Vault from which the secrets will be downloaded."
+    required: true
+  secretsFilterString:
+    description: "A comma-separated list of secret names to be downloaded. Use the default value `*` to download all the secrets from the vault."
+    required: false
+    default: "*"
+runs:
+  using: "node12"
+  main: "lib/index.js"
+branding:
+  icon: "key"
+  color: "green"

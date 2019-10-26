@@ -1,0 +1,28 @@
+{
+  "name": "azure-keyvault",
+  "version": "1.0.0",
+  "description": "Azure KeyVault action for GitHub Actions",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GINCHER/azure-keyvault.git"
+  },
+  "author": "Vlad Gincher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GINCHER/azure-keyvault/issues"
+  },
+  "homepage": "https://github.com/GINCHER/azure-keyvault#readme",
+  "devDependencies": {
+    "@azure/keyvault-secrets": "^4.0.0-preview.9",
+    "@types/node": "^12.11.7",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "@actions/core": "^1.2.0",
+    "@actions/exec": "^1.0.1"
+  }
+}
