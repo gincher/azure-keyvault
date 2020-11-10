@@ -1,3 +1,7 @@
+# This repository is no longer maintained
+
+You should use the key vault action created by Azure instead: https://github.com/marketplace/actions/azure-key-vault-get-secrets
+
 # Action for adding Azure Key Vault secrets to the environment variables
 
 This action is designed to use the [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest) to add Azure Key Vault's secrets to the environment variables. Make sure you have logged in to the azure cli (using the [`azure/login`](https://github.com/Azure/login) action) before using this action. Works similar to the [`AzureKeyVault`](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/deploy/azure-key-vault) task in Azure DevOps. The environment variable name will be uppercase and dashes will be replaces with underline, so if the name is `Secret-Name`, the environment variable will be calles `SECRET_NAME`.
